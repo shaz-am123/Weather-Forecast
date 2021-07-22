@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  background:rgba(0,0,0,0.4)url("https://source.unsplash.com/1600x900/?nature,water");
 }
 
 body {
@@ -9,6 +10,7 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #f5f5f5;
+  color: white;
 }
 
 .form-signin {
@@ -18,22 +20,14 @@ body {
   margin: auto;
 }
 
-.form-signin .checkbox {
-  font-weight: 400;
-}
 
 .form-signin .form-floating:focus-within {
   z-index: 2;
 }
 
-.form-signin input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
 
-.form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+.signupPortion{
+  background-color: #f5f5f5;
+  color: black;
+  margin:0 auto;
 }
