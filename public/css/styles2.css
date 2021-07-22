@@ -1,10 +1,13 @@
-body{
+html,body{
   color: white;
   text-align: center;
   background:rgba(0,0,0,0.4)url("https://source.unsplash.com/1600x900/?nature,water");
   background-size: cover;
+  background-repeat: no-repeat;
   background-blend-mode: darken;
+  height: 100%;
 }
+
 
 .middle{
   margin: 5% 3% 5% 3%;
@@ -14,4 +17,16 @@ body{
   border-width: 18px;
   border-style: solid;
   border-color: white;
+}
+
+@media(max-width: 760px){
+  .middle{
+    height: 100%
+    padding: 7%;
+    text-align: left;
+  }
+
+  form{
+    text-align: center;
+  }
 }
