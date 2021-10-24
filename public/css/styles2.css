@@ -8,9 +8,9 @@ html,body{
 
 
 .middle{
-  background-color: rgba(7, 70, 100, 0.8);
+  background-color: rgba(230, 232, 233, 0.562);
   margin: 5% 3% 5% 3%;
-  color: white;
+  color: black;
   padding: 3%;
   border-width: 5px;
   border-style: solid;
